@@ -1,6 +1,6 @@
 # Bible raw query
 
-Tests capabilities of sql.js-httpvfs -based static serving query API on gh-pages.
+Tests capabilities of sql.js-httpvfs based static serving Bible query app on gh-pages.
 
 ## Caveats
 
