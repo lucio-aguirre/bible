@@ -1,5 +1,4 @@
 /node_modules/
-# https://dev.to/letsbsocial1/deploying-to-gh-pages-with-git-subtree
-#/dist/
+/dist/
 /.vscode/
 .DS_Store
