@@ -16,7 +16,6 @@
     } catch (e) {
       error = await e.toString()
     }
-    // console.log(sql)
   }
 
   // If location.search was passed, it must be a query: run it and we're done.
@@ -26,7 +25,7 @@
 
 <!-- Query maybe passed in qs (scriptkit); if so, DONT render query input/button. -->
 {#if !location.search }
-  <h2>Enter raw query:</h2>
+  <h2>Raw query:</h2>
   <textarea bind:value={sql} cols="60" rows="15"></textarea>
   <p>
     <button on:click={runQuery}>Run</button>
