@@ -19,7 +19,6 @@ Github pages base URL path config:
 
 ## TODO
 
-- authorize dlee
 - rename repo OR totally replace its contents with vite-managed project
 - create/upload gh-pages branch
 - static SPA with dual functionality (scriptkit in mind):
